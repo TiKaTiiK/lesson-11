@@ -13,18 +13,56 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section>
-        <img class="w-100" src="images/Untitled-1.jpg" alt="burger-image">
-    </section>
-    <section>
-        <div class="card text-center ">
-            <div class="card-body">
-              <h3 class="card-title">Want To Eat?</h3>
+     <header>
+        <div class="poster-image">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"> 
+                      <img class="ms-5 mt-5" src="images/logo.svg" alt="logo-image">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=""><i class="fa-solid fa-bars text-light "></i></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item ms-2">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item ms-2">
+                        <a class="nav-link text-light" href="#section1-jump-link">Menu</a>
+                      </li>
+                      <li class="nav-item ms-2">
+                        <a class="nav-link text-light" href="#">Gallery</a>
+                      </li>
+                      <li class="nav-item ms-2">
+                        <a class="nav-link text-light" href="#">Testiminials</a>
+                      </li>
+                         <li class="nav-item ms-2">
+                        <a class="nav-link text-light" href="#">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            <div class="text-light mt-5 ms-5" style="width: 18rem;">
+                <div class="card-body">
+                  <h3 class="card-title fs-1 fw-bold">Party Time!</h3>
+                  <p class="card-text mt-5 w-100">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#section2-jump-link" class="btn btn-outline-warning rounded-pill mt-4 fw-bold pseudo">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="section1-jump-link">
+        <div class="card text-center border-0">
+            <div class="card-body mt-5 mb-4">
+                
+              <h3 class="card-title fs-2 text-danger mb-4">Want To Eat?</h3>
               <p class="card-text">Try our Most Delicious food and it usually take minutes to deliver!</p>
             </div>
         </div>
         <div class="d-flex justify-content-evenly mb-4">
-        <div class="row row-cols-1 row-cols-md-6 g-4 div-row">
+        <div class="row row-cols-1 row-cols-md-6 g-4 div-row mb-5">
             <div class="col">
                 <div class="shadow card">
                   <img src="images/burger.png" class="card-img-top mx-auto mt-4 icons" alt="burger-image">
@@ -82,24 +120,29 @@
                 <div class="flex-shrink-0">
                     <img class="w-100" src="images/waiter-img.svg" alt="waiter-image">
                 </div>
-                <p class="flex-grow-1 ms-3">
-                    We Guarantee 30 Minutes Delivery
-                </p>
-                <p class="flex-grow-1 ms-3">
-                    If you are having a meeting, working late at night and need an extra push. Let us know and we will be there
-                </p>
+                <div>
+                    <h2 class="w-50 mb-5 flex-grow-1 ms-3">
+                        We Guarantee 30 Minutes Delivery
+                    </h2>
+                    <p class="w-50 flex-grow-1 ms-3">
+                        If you are having a meeting, working late at night and need an extra push. Let us know and we will be there
+                    </p>
+                    <p class="w-50 flex-grow-1 ms-3">
+                        Let us know and we will be there
+                    </p>
+                </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="card text-center">
-            <div class="card-body">
-              <h3 class="card-title">Want To Eat?</h3>
+    <section id="section2-jump-link">
+        <div class="card text-center border-0">
+            <div class="card-body  mt-5 mb-5">
+              <h3 class="card-title fs-2 text-danger mb-4">Our Most Popular Recipes</h3>
               <p class="card-text">Try our Most Delicious food and it usually take minutes to deliver!</p>
             </div>
         </div>
         <div class="d-flex justify-content-evenly">
-        <div class="row row-cols-2 row-cols-md-3 g-4 div-row">
+        <div class="row row-cols-2 row-cols-md-3 g-4 div-row mb-5">
             <div class="col">
                 <div class="shadow card">
                   <img src="images/1.jpg" class="card-img-top" alt="burger-image">
@@ -107,6 +150,7 @@
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <button type="button" class="btn btn-warning rounded-pill text-white">Add To Cart</button>
+                    <p class="d-inline text-danger ms-3 fw-bold">10.99 $</p>
                   </div>
                 </div>
               </div>
@@ -117,6 +161,7 @@
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <button type="button" class="btn btn-warning rounded-pill text-white">Add To Cart</button>
+                    <p class="d-inline text-danger ms-3 fw-bold">10.99 $</p>
                   </div>
                 </div>
               </div>
@@ -127,6 +172,7 @@
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <button type="button" class="btn btn-warning rounded-pill text-white">Add To Cart</button>
+                  <p class="d-inline text-danger ms-3 fw-bold">10.99 $</p>
                 </div>
               </div>
             </div>
@@ -137,6 +183,7 @@
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <button type="button" class="btn btn-warning rounded-pill text-white">Add To Cart</button>
+                  <p class="d-inline text-danger ms-3 fw-bold">10.99 $</p>
                 </div>
               </div>
             </div>
@@ -147,6 +194,7 @@
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <button type="button" class="btn btn-warning rounded-pill text-white">Add To Cart</button>
+                  <p class="d-inline text-danger ms-3 fw-bold">10.99 $</p>
                 </div>
               </div>
             </div>
@@ -157,6 +205,7 @@
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <button type="button" class="btn btn-warning rounded-pill text-white">Add To Cart</button>
+                  <p class="d-inline text-danger ms-3 fw-bold">10.99 $</p>
                 </div>
               </div>
             </div>
@@ -166,14 +215,45 @@
             <button type="button" class="rounded-pill btn btn-danger mt-4 mb-4">Show Our Menu</button>
           </div>
     </section>
-    <section>
-        <div class="d-flex justify-content-evenly p-3 mb-2 bg-warning text-dark">
-            <div class="d-inline p-2 bg-white text-black frame">d-inline</div>
-            <div class="d-inline p-2 bg-white text-black frame">d-inline</div>
-            <div class="d-inline p-2 bg-white text-black frame">d-inline</div>
-            <div class="d-inline p-2 bg-white text-black frame">d-inline</div>
+    <footer class="bg-warning d-flex align-items-center mt-5">
+        <div class="container-xxl">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 mt-5 mb-5">
+            <div class="col">
+              <div class="p-3 bg-white text-center rounded-3 mt-4 col-size">
+                  <img class="mt-2 mb-3" src="images/img-1.png" alt="pizza-image">
+                  <h5>Free shipping on first order</h5>
+                  <img src="images/line1.svg" alt="yell-line">
+                  <p>Sign up for updates and get free shipping</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="p-3 bg-white text-center rounded-3 mt-4 col-size">
+                  <img class="mt-3 mb-3" src="images/img-2.png" alt="clock-image">
+                  <h5 class="mb-1"> 30 minutes delivery</h5>
+                  <img src="images/line1.svg" alt="yell-line">
+                  <p>Everything you order will be quickly delivered to your door.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="p-3 bg-white text-center rounded-3 mt-4 col-size">
+                  <img class="mt-3 mb-3" src="images/img-3.png" alt="burger-image">
+                  <h5>Best quality guarantee</h5>
+                  <img src="images/line1.svg" alt="yell-line">
+                  <p>We use only the best ingredients to cook the tasty fresh food for you.</p>	   
+              </div>
+            </div>
+            <div class="col">
+              <div class="p-3 bg-white text-center rounded-3 mt-4 col-size">
+                  <img class="mt-2 mb-3" src="images/img-4.png" alt="combo-image">
+                  <h5>Variety of dishes</h5>
+                  <img src="images/line1.svg" alt="yell-line">
+                  <p>In our menu you’ll find a wide variety of dishes, desserts, and drinks.</p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- <script src="js/bootstrap.bundle.js"></script> -->
