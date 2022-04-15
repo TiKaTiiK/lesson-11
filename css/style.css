@@ -1,10 +1,19 @@
+header,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Comfortaa';
+}
 .poster-image{
     background-image: url("../images/poster.jpg");
     width: 100%;
-    /* height: 720px; */
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
+}
+.ahref::after {
+    content: '2192';
+    margin-left: 210px;
 }
 .frame {
     max-width: 326px;
@@ -19,11 +28,17 @@
     height: 809px;
     margin-top: 43px;
 }
+.div-col {
+    max-width: 280px;
+    width: 100%;
+    height: 310px;
+    margin: 0 auto;
+}
 .div-row {
-    max-width: 1447px;
+    max-width: 1300px;
     width: 100%;
 }
 .icons {
     width: 75px;
-    height: 100px;
+    height: 75px;
 }
